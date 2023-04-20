@@ -21,7 +21,7 @@ const HeroSection = () => {
           <h1 className="text-2xl font-bold mt-6 md:mt-0 md:text-4xl">
             Ethan Weiner
           </h1>
-          <p className="text-md mt-4 mb-6 md:text-xl">
+          <p className="text-md mt-4 mb-8 md:text-xl">
             I{"'"}m a full-stack software engineer based in Boston, experienced
             in JavaScript, Ruby, React, Express, PostgreSQL, Docker, and AWS. I
             recently created{' '}

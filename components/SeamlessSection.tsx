@@ -52,10 +52,10 @@ const AboutSection = () => {
               alt=""
               width={1200}
               height={1200}
-              className="rounded-xl shadow-xl cursor-pointer"
+              className="rounded-xl shadow-lg cursor-pointer"
             />
           </a>
-          <p className="text-stone-600 dark:text-stone-200 text-lg my-10">
+          <p className="text-stone-600 dark:text-stone-200 text-lg my-12">
             Seamless tests, builds, and deploys microservices with a robust
             pipeline powered by AWS infrastructure, including Step Functions,
             ECS, and API Gateways.
