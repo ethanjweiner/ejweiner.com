@@ -19,9 +19,15 @@ const AboutSection = () => {
   return (
     <section id="seamless">
       <div className="my-12 md:pt-16">
-        <h1 className="text-center font-bold text-4xl">
+        <h1 className="text-center font-bold text-4xl mb-6">
+          <Image
+            src="/seamless_logo.png"
+            alt="Seamless Logo"
+            width={40}
+            height={40}
+            className="inline mr-3"
+          />
           Seamless
-          <hr className="w-6 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded"></hr>
         </h1>
 
         <div className="items-stretch justify-center align-top md:p-4 md:text-left">
