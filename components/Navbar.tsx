@@ -26,18 +26,6 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Resume',
     link: '/ethan_weiner_resume.pdf',
   },
-  {
-    label: 'Github',
-    link: 'https://github.com/ethanjweiner',
-  },
-  {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ethan-weiner/',
-  },
-  {
-    label: 'Youtube',
-    link: 'https://www.youtube.com/c/ethanweiner',
-  },
 ];
 
 export default function Navbar() {

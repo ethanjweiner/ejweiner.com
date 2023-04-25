@@ -6,7 +6,7 @@ import { HiArrowDown } from 'react-icons/hi';
 
 const HeroSection = () => {
   return (
-    <section id="home">
+    <section id="home" className="mx-auto max-w-2xl px-4 sm:px-6 md:max-w-4xl ">
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-16 px-5 py-16 sm:py-32 md:py-64 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
@@ -22,9 +22,11 @@ const HeroSection = () => {
             Ethan Weiner
           </h1>
           <p className="text-lg mt-4 mb-8 md:text-xl">
-            I{"'"}m a full-stack software engineer based in Boston, experienced
-            in JavaScript, Ruby, React, Express, PostgreSQL, Docker, and AWS. I
-            recently created{' '}
+            Hi, I'm Ethan! I{"'"}m a full-stack software engineer based in
+            Boston, experienced in the JavaScript and Ruby ecosystems.
+          </p>
+          <p className="text-lg mt-4 mb-8 md:text-xl">
+            I recently created{' '}
             <a
               className="text-indigo-600 dark:text-indigo-400 underline"
               href="https://www.seamless-cicd.com"
@@ -36,12 +38,24 @@ const HeroSection = () => {
             , a CI/CD tool for containerized microservices.
           </p>
           <a
-            href="https://www.seamless-cicd.com/case-study"
+            href="/ethan_weiner_resume.pdf"
             className="text-neutral-100 font-semibold px-6 py-3 bg-indigo-600 rounded shadow hover:bg-indigo-700 cursor-pointer"
             target="_blank"
             rel="noreferrer"
           >
-            Read The Case Study
+            <button>
+              Download Resume
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-5 h-5 ml-1 inline"
+              >
+                <path d="M3.196 12.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 12.87z" />
+                <path d="M3.196 8.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 8.87z" />
+                <path d="M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z" />
+              </svg>
+            </button>
           </a>
         </div>
       </div>
