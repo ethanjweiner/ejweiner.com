@@ -22,7 +22,7 @@ const HeroSection = () => {
             Ethan Weiner
           </h1>
           <p className="text-lg mt-4 mb-8 md:text-xl">
-            Hi, I'm Ethan! I{"'"}m a full-stack software engineer based in
+            Hi, I{"'"}m Ethan! I{"'"}m a full-stack software engineer based in
             Boston, experienced in the JavaScript and Ruby ecosystems.
           </p>
           <p className="text-lg mt-4 mb-8 md:text-xl">
